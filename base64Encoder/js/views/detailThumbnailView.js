@@ -17,7 +17,7 @@
               this.listenTo(this.model, 'select-change', this.selectChangeRender);
         },
         loadingRender: function(){
-              var modelJson = { isLoading: true, name: "Now Loadning..." },
+              var modelJson = { isLoading: true, name: "Now Loading..." },
                   tmpl = this.tmplDetailThumbnail(modelJson);
               
               this.target.html(this.$el.html(tmpl));
