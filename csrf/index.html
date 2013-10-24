@@ -170,7 +170,6 @@ jQuery(function($){
                 _execCnt = Math.abs(Math.round(~~$('#exec-cnt').val()));
             
             targetForm.attr('action', $('#action-url').val());
-            targetForm.attr('name', $('#form-name').val());
             targetForm.attr('method', $("input:radio[name='method-type']:checked").val());
             
             return setInterval(function(){
